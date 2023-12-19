@@ -14,7 +14,7 @@ jobs:
         uses: google-github-actions/auth@v2
         with:
           project_id: tw-voxy-api-prod-848f
-          workload_identity_provider: projects/tw-voxy-api-prod-848f/locations/global/workloadIdentityPools/github-actions-provider/providers/github-actions-provider
+          workload_identity_provider: projects/839139424579/locations/global/workloadIdentityPools/github-actions-provider/providers/github-actions-provider
           service_account: github-actions@tw-voxy-api-prod-848f.iam.gserviceaccount.com
       - name: 'Set up Cloud SDK'
         uses: 'google-github-actions/setup-gcloud@v1'
